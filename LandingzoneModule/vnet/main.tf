@@ -1,3 +1,5 @@
+
+
 resource "azurerm_virtual_network" "vnet-blk" {
     for_each = var.virtual_networks
     name = each.value.namoved 
